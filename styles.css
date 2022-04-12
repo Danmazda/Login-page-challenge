@@ -24,6 +24,7 @@ body {
 }
 .login-container {
   width: 50%;
+  max-height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -181,7 +182,6 @@ img {
   height: 1rem;
   margin: 0.7rem auto;
   border: none;
-  width: 60%;
   border-radius: 10px;
   font-weight: 700;
   /* background-color: #CACACA; */
@@ -189,13 +189,13 @@ img {
 }
 .strong-lines p:first-child {
   font-weight: 400;
-  width: 40%;
 }
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1000px) {
   body {
     display: block;
   }
   #image {
+    height: 100vh;
     width: 100%;
     padding: 4%;
   }
@@ -214,8 +214,3 @@ img {
   }
 }
 
-@media only screen and (max-width: 600px) {
-  .strong-lines p:first-child {
-    width: 100%;
-  }
-}
