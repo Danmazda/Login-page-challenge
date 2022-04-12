@@ -8,10 +8,9 @@ div {
   width: 100%;
 }
 body {
-  background-color: #020303;
   display: flex;
   flex-direction: row-reverse;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 #login {
@@ -19,14 +18,12 @@ body {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  background-color: #E5E5E5;
   width: 50%;
   height: 100vh;
   font-family: "Lato", sans-serif;
 }
 .login-container {
   width: 50%;
-  height: 70%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -40,7 +37,6 @@ body {
   align-items: center;
   width: 100%;
 }
-
 
 button {
   border-radius: 5px;
@@ -101,13 +97,16 @@ button:hover {
   border: 1px solid whitesmoke;
 }
 
+.foot {
+  margin: 0 auto;
+}
 /* imagens */
 #image {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #F7FAFC;
+  background-color: #e5e5e5;
   width: 50%;
 }
 
@@ -130,7 +129,7 @@ button:hover {
 .circles div {
   width: 13px;
   height: 13px;
-  background-color: #3F3D56;
+  background-color: #3f3d56;
   border-radius: 999px;
   margin: 2px;
 }
@@ -144,15 +143,14 @@ button:hover {
 .stripes div {
   width: 18px;
   height: 3px;
-  background-color: #3F3D56;
+  background-color: #3f3d56;
   margin: 2px;
   border-radius: 15px;
-
 }
 
 hr {
   height: 0.2rem;
-  background-color: #CACACA;
+  background-color: #cacaca;
   border: none;
   border-radius: 5px;
 }
@@ -173,12 +171,12 @@ img {
   border-radius: 999px;
 }
 
-.strong-lines{
+.strong-lines {
   margin-bottom: 15px;
 }
 .strong-lines p {
   font-size: 1.5rem;
-  color:#04c45c;
+  color: #04c45c;
   text-align: center;
   height: 1rem;
   margin: 0.7rem auto;
@@ -201,23 +199,23 @@ img {
     width: 100%;
     padding: 4%;
   }
-  .image-container{
+  .image-container {
     width: 100%;
   }
-  .image-head{
+  .image-head {
     margin-top: 10px;
   }
   #login {
     width: 100%;
     padding: 4%;
   }
-  .login-container{
+  .login-container {
     width: 100%;
   }
 }
 
-@media only screen and (max-width: 600px){
-  .strong-lines p:first-child{
+@media only screen and (max-width: 600px) {
+  .strong-lines p:first-child {
     width: 100%;
   }
-} 
+}
